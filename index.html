@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+    	<meta charset="utf-8">
+    	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    	<title>Kerim Mandzo</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+        
+        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
+        
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+    	<header class="header">
+    		<button class="nav-toggle" aria-label="toggle navigation">
+    			<span class="hamburger"></span>
+    		</button>
+    		<nav class="nav nav__list">
+    			<ul class="nav__list">
+    				<li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+    				<li class="nav__item"><a href="#infos" class="nav__link">Infos</a></li>
+    				<li class="nav__item"><a href="#about" class="nav__link">About Me</a></li>
+    				<li class="nav__item"><a href="#projects" class="nav__link">Projects</a></li>
+    			</ul>
+    		</nav>
+		</header>
+
+		<!-- Intro -->
+        <section class="intro" id="home">
+        	<h1 class="section__title section__title--intro">
+        		Hi, I am <strong>Kerim Mandžo</strong>
+        	</h1>
+        	<p class="section__subtitle section__subtitle--intro">
+        		Msc. Mech Eng
+        	</p>
+        	<img src="img/photo.jpg" alt="profile picture" width="300" class="intro__img">
+        </section>
+
+        <!-- Info -->
+        <section class="my-infos" id="infos">
+        	<h2 class="section__title section__title--infos">What I Do</h2>
+
+        	<div class="infos">
+        		<div class="info">
+        			<h3>Education</h3>
+        			<p>
+        				University of Sarajevo
+        				<br>
+        				2010-2013 Bsc. Mech Eng 
+        				<br>
+        				2013-2015 Msc. Mech Eng
+        			</p>
+        		</div>
+
+        		<div class="info">
+        			<h3>Work Experience</h3>
+        			<p>
+        				2016-2020 Hueck Systems GmbH
+        				<br>
+        				2020- Software Developer ? :)
+        			</p>
+        		</div>
+
+        		<div class="info">
+        			<h3>My Stack</h3>
+        			<p>
+        				Python, Flask, Django
+        				<br>
+        				C, SQL, Git
+        				<br>
+        				HTML, CSS
+        			</p>
+        		</div>
+        	</div>
+
+        	<a href="#projects" class="btn">My Projects</a>
+        </section>
+
+        <!-- About Me -->
+        <section class="about-me" id="about">
+        	<h2 class="section__title section__title--about">Who I Am</h2>
+        	<p class="section__subtitle section__subtitle--about">
+        		Msc. Mech Eng based in Sarajevo
+        	</p>
+
+        	<div class="about-me__body">
+        		<p>Hello there, you managed to find me.<br> I am a Msc. Mech Eng currently based in Sarajevo and ready to make the switch to the exciting world of software programming.</p>
+        		<p>My journey in software development began on 23rd of January when I received an email from edx.org. It was the standard weekly update about courses that are about to start, but one course got me curious. MITs own 6.00.1x: Introduction to Computer Science and Programming Using Python.</p>
+        		<p>I found the course really enjoyable, but the most important part of my journey was still to happen. While browsing the discussion forums, someone suggested Codewars.com for getting more practice with Python.</p>
+        		<p>And since that day I haven't missed a day without solving some problems. It is something I enjoy the most about programming, along with Algorithms and Data Structures. I managed to get to the top 0.5% of users on the site and don't intend on stopping. (<a href="https://www.codewars.com/users/Kerman07">Codewars profile</a>) More recently I have also started doing Leetcode problems. (<a href="https://leetcode.com/kerman07/">Leetcode profile</a>)</p>
+        		<p></p>
+        		<p>Since then, I have taken more courses, like the canonical CS50 from Harvard. I have learned more languages and frameworks while steadily building projects on the side. All in my free time while working at my regular job as a Mech Eng.</p>
+        		<p>And this is where you come in. I know my journey has just begun, and more interesting and complex stuff is yet to come. If you got interested, feel free to contact me via mail, Github or Linkedin.</p>
+        	</div>
+        	<img src="img/about.jpg" class="about-me__img">
+        </section>
+
+        <!-- My projects -->
+        <section class="my-projects" id="projects">
+        	<h2 class="section__title section__title--projects">My Projects</h2>
+        	<p class="section__subtitle section__subtitle--projects">Some projects I have done</p>
+            <p class="text">All images lead to Github repositories of the projects</p>
+
+        	<div class="portfolio">
+                <div class="row justify-content-center">
+                    <div class="col-sm">
+                		<a href="https://github.com/Kerman07/snake-pygame" class="portfolio__item" target="_blank">
+                			<img src="img/snake.jpg" alt="snake" class="portfolio__img d-block mx-auto mx-md-0">
+                		</a>
+                    </div>
+
+                    <div class="col-sm">
+                		<a href="https://github.com/Kerman07/compare-text" class="portfolio__item" target="_blank">
+                			<img src="img/textcompare.png" alt="text" class="portfolio__img d-block mx-auto mx-md-0">
+                		</a>
+                    </div>
+                </div>
+
+                <div class="row justify-content-center">
+                    <div class="col-sm">
+                        <a href="https://github.com/Kerman07/login-authentication" class="portfolio__item" target="_blank">
+                            <img src="img/login.png" alt="login" class="portfolio__img d-block mx-auto mx-md-0">
+                        </a>
+                    </div>
+
+                    <div class="col-sm">
+                        <a href="https://github.com/Kerman07/website-kobe-24" class="portfolio__item" target="_blank">
+                            <img src="img/kobe.png" alt="webpage" class="portfolio__img d-block mx-auto mx-md-0">
+                        </a>
+                    </div>
+                </div>
+
+                <div class="row justify-content-center">
+                    <div class="col-sm">
+                        <a href="https://github.com/Kerman07/tic-tac-toe" class="portfolio__item" target="_blank">
+                            <img src="img/tic-tac-toe.png" alt="tic-tac-toe" class="portfolio__img d-block mx-auto mx-md-0">
+                        </a>
+                    </div>
+
+                    <div class="col-sm">
+                		<a href="https://github.com/Kerman07/planner" class="portfolio__item" target="_blank">
+                			<img src="img/planner.png" alt="planner" class="portfolio__img d-block mx-auto mx-md-0">
+                		</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="footer">
+        	<a href="mailto:kerman07@live.com" class="footer__link">kerman07@live.com</a>
+        	<ul class="social-list">
+        		<li class="social-list__item">
+                    <a href="https://github.com/Kerman07" class="social-list__link" target="_blank">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </li>
+        		<li class="social-list__item">
+                    <a href="https://www.linkedin.com/in/kerim-mandžo-60973b182/" class="social-list__link" target="_blank">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                </li>
+        	</ul>
+        </footer>
+
+        <script src="index.js"></script>
+    </body>
+</html>

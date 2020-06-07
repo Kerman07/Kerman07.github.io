@@ -389,6 +389,8 @@ header {
 }
 
 .portfolio__img {
+	max-width: 100%;
+	height: auto;
 	transition: 
 		transform 750ms cubic-bezier(.5, 0, .5, 1),
 		opacity 500ms linear;

@@ -397,8 +397,8 @@ header {
 }
 
 .portfolio__img:hover {
-	transform: scale(1.15);
-	opacity: 0.75;
+	transform: scale(1.1);
+	opacity: 0.9;
 }
 
 .footer {
@@ -450,4 +450,21 @@ header {
 .header {
 	background: var(--clr-dark);
 	padding-bottom: 90px;
+}
+
+.portfolio__description {
+	color: var(--clr-accent);
+	text-shadow: 0.25px 0.25px;
+
+}
+
+.row {
+	border-top: 1px solid var(--clr-accent);
+	border-left: 1px solid var(--clr-accent);
+	border-right: 1px solid var(--clr-accent);
+	padding: 0.5rem;
+}
+
+.last {
+	border-bottom: 1px solid var(--clr-accent);
 }

@@ -374,16 +374,6 @@ header {
 	margin-top: 3em;
 }
 
-.portfolio__img {
-	margin-bottom: 2.5em;
-}
-
-@media (min-width: 800px) {
-	.row {
-		margin: 0 2em;	
-	}
-}
-
 .portfolio__item {
 	overflow: hidden;
 }
@@ -391,6 +381,7 @@ header {
 .portfolio__img {
 	max-width: 100%;
 	height: auto;
+	margin-bottom: 2.5em;
 	transition: 
 		transform 750ms cubic-bezier(.5, 0, .5, 1),
 		opacity 500ms linear;
@@ -463,8 +454,22 @@ header {
 	border-left: 1px solid var(--clr-accent);
 	border-right: 1px solid var(--clr-accent);
 	padding: 0.5rem;
+	position: relative;
 }
 
 .last {
 	border-bottom: 1px solid var(--clr-accent);
+}
+
+@media (min-width: 600px) {
+	.col-sm {
+		top: 0;
+		bottom: 0;
+		margin: auto;
+		text-align: center;
+	}
+
+	.portfolio__item {
+		display: inline-block;
+	}
 }

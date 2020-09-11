@@ -301,7 +301,7 @@ header {
 
 @media (min-width: 800px) {
     .infos {
-    	width: 75%;
+    	width: 80%;
         display: flex;
         margin-left: auto;
         margin-right: auto;

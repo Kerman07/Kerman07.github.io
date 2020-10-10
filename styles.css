@@ -378,6 +378,19 @@ header {
 	overflow: hidden;
 }
 
+@media (min-width: 600px) {
+	.col-sm {
+		top: 0;
+		bottom: 0;
+		margin: auto;
+		text-align: center;
+	}
+
+	.portfolio__item {
+		display: inline-block;
+	}
+}
+
 .portfolio__img {
 	max-width: 100%;
 	height: auto;
@@ -459,17 +472,4 @@ header {
 
 .last {
 	border-bottom: 1px solid var(--clr-accent);
-}
-
-@media (min-width: 600px) {
-	.col-sm {
-		top: 0;
-		bottom: 0;
-		margin: auto;
-		text-align: center;
-	}
-
-	.portfolio__item {
-		display: inline-block;
-	}
 }
